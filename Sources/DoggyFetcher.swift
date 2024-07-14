@@ -9,10 +9,6 @@ import Foundation
 import UIKit
 import UserNotifications
 
-@objc
-public class TestClass: NSObject {
-    
-}
 struct Doggy: Decodable {
     let message: URL
     let status: String
